@@ -1,0 +1,106 @@
+body {
+  background-color: #1f3c88;
+  font-family: 'Montserrat', sans-serif;
+  color: #f6f5f5;
+}
+a {
+  text-decoration: none;
+  color: #f6f5f5;
+}
+.navigation-section a:hover, .navigation-section a:active {
+  background-color: #f6f5f5;
+  border-radius: 5%;
+  color: #1f3c88;
+}
+
+/* Everything Else */
+.snip1214 {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  margin: 40px 10px;
+}
+.snip1214 .plan {
+  margin: auto;
+  background-color: #f6f5f5;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.snip1214 .plan-title {
+  position: relative;
+  top: 0;
+  font-weight: 800;
+  padding: 5px 15px;
+  margin: 0 auto;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+  display: inline-block;
+  background-color: #1f3c88;
+  color: #fff;
+}
+.snip1214 .plan-cost {
+  padding: 0px 10px 20px;
+}
+.snip1214 .plan-price {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 800;
+  font-size: 2.4em;
+  color: #34495e;
+}
+.snip1214 .plan-features {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style: outside none none;
+  color: #1f3c88;
+}
+.snip1214 .plan-features .row {
+  border-top: 1px solid #d2d7e2;
+  padding: 10px 5%;
+  margin: 0%;
+}
+.snip1214 .plan-features .row:nth-child(even) {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.snip1214 .plan-select a {
+  background-color: #ee6f57;
+  color: #fff;
+  padding: 0.5em 1em;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.snip1214 .plan-select a:hover {
+  background-color: #1f3c88;
+}
+
+}
+@media only screen and (max-width: 767px) {
+  .snip1214 .plan {
+    width: 50%;
+  }
+  .snip1214 .plan-title,
+  .snip1214 .plan-select a {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .snip1214 .plan-cost,
+  .snip1214 .featured .plan-cost {
+    padding: 20px 10px 20px;
+  }
+  .snip1214 .plan-select,
+  .snip1214 .featured .plan-select {
+    padding: 10px 10px 10px;
+  }
+  .snip1214 .featured {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .snip1214 .plan {
+    width: 100%;
+  }
+}

@@ -1,0 +1,127 @@
+/* .bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+} */
+.header-section{
+  padding: 10% 0% 5% 0%;
+}
+
+.contact-image img{
+    border-radius: 6rem;
+    width: 15%;
+    margin-top: -8%;
+}
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+/* .product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+} */
+
+body {
+  background-color: #f6f5f5;
+  font-family: 'Montserrat', sans-serif;
+  color: #1f3c88;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0)
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+  }
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0)
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+  }
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both
+}
+.animatedFadeInUp {
+  opacity: 0
+}
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+/* everything else */
+a {
+  text-decoration: none;
+  color: #1f3c88;
+}
+
+#navigation-section a:hover, #navigation-section a:active {
+  background-color: #1f3c88;
+  border-radius: 5%;
+  color: white;
+}
+
+
+.card{
+  margin-top: 3%;
+}
+
+.footer{
+left: 0;
+width: 100%;
+text-align: center;
+}
+.footer-link{
+  margin: 2%;
+  color: #1f3c88;
+}
+
+@media (max-width: 992px) {
+  .about {
+    border-style: none ;
+  }
+}

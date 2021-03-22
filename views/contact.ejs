@@ -1,0 +1,84 @@
+<%- include('partials/header') %>
+
+<div class="blue-page-body">
+  <!-- Nav Bar -->
+<%- include('partials/bluenavbar') %>
+
+ <div class="container contact-form">
+   <div class="contact-image animated fadeInUp">
+     <img src="images/Blueprint Logos border.png" alt="BP Logo">
+   </div>
+
+   <form method="post">
+     <h2>Drop Me a Message</h2>
+
+     <div class="row">
+
+       <div class="col-md-6">
+         <div class="form-group">
+           <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" />
+         </div>
+
+         <div class="form-group">
+           <input type="email" name="Email" class="form-control" placeholder="Email *" value="" />
+         </div>
+
+         <div class="form-group">
+           <input type="text" name="Phone" class="form-control" placeholder="Phone Number *" value="" />
+         </div>
+
+         <div class="form-group">
+           <select type="text" name="Subject" class="form-control">
+                     <option selected value="">
+                         Subject: (Choose One)
+                     </option>
+
+                     <option value="Service">
+                         Request Service
+                     </option>
+
+                     <option value="Suggestions/Comment">
+                         Suggestion/Comment
+                     </option>
+
+                     <option value="Bug">
+                         Report Bug
+                     </option>
+
+                     <option value="Other">
+                         Other
+                     </option>
+                 </select>
+         </div>
+
+         <div class="form-group">
+           <input type="submit" name="btnSubmit" class="btnContact" value="Send" />
+         </div>
+
+       </div>
+
+       <div class="col-md-6">
+         <div class="form-group">
+           <textarea name="Message" class="form-control" placeholder="Your Message *" style="width: 100%; height: 200px;"></textarea>
+         </div>
+       </div>
+     </div>
+   </form>
+ </div>
+
+ <!-- Footer -->
+
+ <footer id="footer" class="footer mt-auto py-3">
+   <div class="container">
+     <a id="footer-link" class="footer-link" href="https://www.facebook.com/bivens.jeremy"><i class="fab fa-facebook-f fa-lg"></i></a>
+     <a id="footer-link" class="footer-link" href="https://www.instagram.com/bivensjeremy/"><i class="fab fa-instagram fa-lg"></i></a>
+     <a id="footer-link" class="footer-link" href="https://twitter.com/"><i class="fab fa-twitter fa-lg"></i></a>
+     <a id="footer-link" class="footer-link" href="https://www.linkedin.com/in/bivensjeremy"><i class="fab fa-linkedin fa-lg"></i></a>
+     <a id="footer-link" class="footer-link" href="mailto:admin@bivensblueprint.com?subject=Contact"><i class="fas fa-envelope fa-lg"></i></a>
+     <p><i class="far fa-registered"></i> 2021 Bivens Blueprint, LLC</p>
+   </div>
+
+ </footer>
+
+</div>
+</html>

@@ -1,0 +1,50 @@
+<%- include('partials/header') %>
+
+ <%- include('partials/navbar') %>
+
+ <div class="container contact-form">
+   <div class="contact-image animated fadeInUp">
+     <img src="images/Blueprint Logos border.png" alt="BP Logo">
+   </div>
+
+
+   <form method="post">
+     <h2 class="animated fadeInUp">Message Sent!</h2>
+
+     <div class="row">
+
+       <div class="col-md-6">
+         <div class="form-group">
+           <input disabled type="text" name="Name" class="form-control" placeholder="" value="" />
+         </div>
+
+         <div class="form-group">
+           <input disabled type="email" name="Email" class="form-control" placeholder="" value="" />
+         </div>
+
+         <div class="form-group">
+           <input disabled type="text" name="Phone" class="form-control" placeholder="" value="" />
+         </div>
+
+         <div class="form-group">
+           <select disabled type="text" placeholder="" name="Subject" class="form-control">
+                 </select>
+         </div>
+
+         <div class="form-group">
+           <input disabled type="submit" name="btnSubmit" class="btnContact" value="Send" />
+         </div>
+
+       </div>
+
+       <div class="col-md-6">
+         <div class="form-group">
+           <textarea disabled name="Message" class="form-control" placeholder="" style="width: 100%; height: 200px;"></textarea>
+         </div>
+       </div>
+     </div>
+   </form>
+ </div>
+
+
+ <%- include('partials/footer') %>
